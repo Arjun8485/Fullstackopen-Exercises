@@ -1,0 +1,6 @@
+title New note in SPA diagaram 
+
+note left of browser: User inputs data if any, then clicks submit (form default aciton is prevented).
+browser->server:user input (POST request)
+browser<--server:HTTP status code 201
+note left of browser:The notes are rendered to the page
