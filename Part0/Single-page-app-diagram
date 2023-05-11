@@ -1,0 +1,6 @@
+title Spa sequence diagram
+
+browser->server:Request page
+browser<-server:Skeleton HTML page
+browser->server:Ajax Request
+browser<-server:JSON response
